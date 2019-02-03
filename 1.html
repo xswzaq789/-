@@ -2,18 +2,57 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>경희여고 - 학교 소개</title>
+<title>경희여자고등학교 소개</title>
+<style>
+ a {color:black;
+   text-decoration:none;}
+h1 {
+  font-size:60px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 20px;
+  margin: 0;}
+ul{
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  border-right: 2px solid black;
+  padding: 20px;
+  line-height: 50px;
+  margin-right: 37px;
+  margin-top: 0px;
+  padding-top: 9px;
+  padding-left: 35px;}
+#select {
+  color: red;
+}
+.saw{
+    color: black;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+
+  }
+
+</style>
 </head>
 
 <body>
-<h1><a href="index.html">경희여자고등학교</a></h1><br>
-<h2>1. 학교 소개</h2>
-<img src = "k.h 본관.jpg">
-  <p><h3>학교 상징, 연혁, 교가</h3></p>
-  <p><h3>선생님 소개</h3></p>
-  <p><h3>오시는 길 <strong>2가지</strong></h3></p>
-  <p><h3>교복</h3></p>
-  <p><h3>학교 시설 소개</h3></p>
-  <p><h3>동아리 소개</h3></p>
+<h1><a href="index.html">경희여자고등학교</a></h1>
+<div id="grid">
+  <ul>
+    <li><a href="1.html" id="select">학교 소개<br></a></li>
+    <li><a href="2.html" class="saw">학교 장점<br></a></li>
+    <li><a href="3.html" class="saw">학교 사진<br></a></li>
+  </ul>
+  <div>
+  <h2>1. 학교 소개</h2>
+  <img src = "k.h 본관.jpg">
+    <p><h3>오시는 길 <strong>2가지</strong></h3></p>
+    <p><h3>교복</h3></p>
+    <p><h3>학교 시설 소개</h3></p>
+  </div>
+</div>
 </body>
 </html>
